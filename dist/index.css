@@ -1,0 +1,12 @@
+.hello {
+  color: red;
+}
+.icon-camera-retro {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  /*background: url('../static/color.png');*/
+}
+.icon-camera-retro img {
+  width: 100%;
+}
