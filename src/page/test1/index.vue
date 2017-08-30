@@ -1,11 +1,11 @@
 <template>
-        <ul>
-            <li>{{name}}</li>
-        </ul>
+    <span>{{name}}</span>
 </template>
 
 <script>
+ import Data from '../../../static/mockData/nav.json'
     export default {
+        
         data () {
             return {
                 name: 'I am Wei!'

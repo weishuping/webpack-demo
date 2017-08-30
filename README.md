@@ -74,3 +74,15 @@ Vue2+Webpack报错：Failed to mount component: template or render function not 
           'vue$': 'vue/dist/vue.common.js'
         }
     }
+2017-08-25
+出了问题参考https://segmentfault.com/a/1190000008602934
+2017-08-26
+今天在写组件的时候，一直出错；；原来是 v-for 不能作用于顶层dom。之后还有 传值问题；
+2017-08-29
+router-link 动态赋值
+to="{ name: '搜索user', params: { userId: 123 }}";
+遇到的问题： 菜单是循环生成的，必然对应不同的路由；但是我这个路由很有规律；我就想要把这些做到一起；
+在router里面: 接受参数。所以就是动态配置路由并且嵌套路由；
+这里的 <router-view> 是最顶层的出口，渲染最高级路由匹配到的组件。同样地，一个被渲染组件同样可以包含自己的嵌套 <router-view>。
+所以在index.vue增加view；并且在路由设置中，要有父组件;
+问题： 重复加载；
