@@ -1,8 +1,6 @@
 
 <template>
-    <div id="app">
         <div>
-             <Temp :data="gL"></Temp>
              <div class="container">
                 <Index></Index>
                 <Edu></Edu>
@@ -10,17 +8,13 @@
                 <Music></Music>
              </div>
         </div>
-        
-    </div>
 </template>
 <script>
-import Temp from './components/test/index.vue'
-import Data from '../static/mockData/nav.json'
-import Index from './page/content/home.vue'
-import Edu from './page/content/edu.vue'
-import Work from './page/content/work.vue'
-import Music from './page/content/music.vue'
-
+import Data from '../../../static/mockData/nav.json'
+import Index from '../content/home.vue'
+import Edu from '../content/edu.vue'
+import Work from '../content/work.vue'
+import Music from '../content/music.vue'
 
     export default {
         
@@ -30,7 +24,6 @@ import Music from './page/content/music.vue'
             }
         },
         components: {
-            Temp,
             Index,
             Edu,
             Work,
