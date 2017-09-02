@@ -1,24 +1,54 @@
-
 <template>
-    <div id="app">
-             <Temp :data="gL"></Temp>
+    <div>
+        <div class="navbar">
+        <router-link to="/test/1">
+            <li>
+                <i class="glyphicon glyphicon-home"></i>
+                11
+            </li>
+        </router-link>
+           <router-link to="/test/2">
+            <li>
+                <i class="glyphicon glyphicon-home"></i>
+                22
+            </li>
+        </router-link>
+        <router-link to="/test/1">
+            <li>
+                <i class="glyphicon glyphicon-home"></i>
+                11
+            </li>
+        </router-link>
+        </div>
+        <div>
+            <router-view> </router-view>
+        </div>
     </div>
 </template>
+
 <script>
- import Temp from '../../components/test/index.vue'
- import one from '../../page/test1/index.vue'
-import two from '../../page/test2/index.vue'
- import Data from '../../../static/mockData/nav.json'
     export default {
-        
+        props: {
+            data: Array
+        },
         data() {
             return {
-                gL: Data.content
+                arr: this.data
             }
-        },
-        components: {
-            Temp
         }
-        
     }
+    
 </script>
+<style lang="">
+    ul.navbar {
+    }
+    .navbar li {
+        background: #cec;
+        display: inline-block;
+        width: 10%;
+        height: 50px;
+        line-height: 50px;
+        margin-right: 15px;
+        cursor: pointer;
+    }
+</style>
