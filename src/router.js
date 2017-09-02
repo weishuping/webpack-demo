@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Temp from './components/test/index.vue'
+import Temp from './page/content/index.vue'
 import one from './page/test1/index.vue'
 import two from './page/test2/index.vue'
 
@@ -8,6 +8,10 @@ import two from './page/test2/index.vue'
 Vue.use(Router)
 export default new Router(  {
     routes: [
+        {
+            path: '/',
+            component: Temp
+        },
         {   path: '/test/:id',
             name: 'test',
             component: Temp,

@@ -7,11 +7,11 @@
                     {{item.text}} 
                 </router-link>
             </li>
-           <div>
-                <router-view> </router-view>
-            </div>
+           
         </div>
-        
+        <div>
+            <router-view> </router-view>
+        </div>
     </div>
 </template>
 
