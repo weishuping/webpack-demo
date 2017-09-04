@@ -13,10 +13,10 @@
                 22
             </li>
         </router-link>
-        <router-link to="/test/1">
+        <router-link to="/test/3">
             <li>
                 <i class="glyphicon glyphicon-home"></i>
-                11
+                模拟ctr shift
             </li>
         </router-link>
         </div>

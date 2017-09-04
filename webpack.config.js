@@ -1,5 +1,6 @@
 
 var path = require('path');
+var webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
@@ -74,6 +75,10 @@ module.exports = {
         //     disable: false,
         //     allChunks: true
         // })
+        new webpack.ProvidePlugin({
+            jQuery: "jquery",
+            $: "jquery"
+        })
     ],
     resolve: {
         extensions: ['.js', '.vue'],

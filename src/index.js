@@ -4,6 +4,7 @@ import Vue from 'vue';
 //添加路由链接、路由视图组件
  import App from './app.vue';
  import router from './router.js'
+ import $ from 'jquery'
 
  Vue.component('todo-item', {
     props: ['todo'],

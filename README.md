@@ -86,3 +86,8 @@ to="{ name: '搜索user', params: { userId: 123 }}";
 这里的 <router-view> 是最顶层的出口，渲染最高级路由匹配到的组件。同样地，一个被渲染组件同样可以包含自己的嵌套 <router-view>。
 所以在index.vue增加view；并且在路由设置中，要有父组件;
 问题： 重复加载；
+
+2017-09-02
+安装jquey
+webpack加入
+index.js引入
