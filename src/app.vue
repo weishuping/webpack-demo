@@ -15,7 +15,11 @@ import Data from '../static/mockData/nav.json'
             }
         },
         components: {
-            Temp
+            Temp,
+            Index,
+            Edu,
+            Work,
+            Music
         }
         
     }

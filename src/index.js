@@ -6,10 +6,6 @@ import Vue from 'vue';
  import router from './router.js'
  import $ from 'jquery'
 
- Vue.component('todo-item', {
-    props: ['todo'],
-    template: '<li>{{ todo.text }}</li>'
-  })
   
  new Vue({
      el: '#app',
