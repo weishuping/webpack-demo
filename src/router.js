@@ -8,17 +8,27 @@ import three from './page/test1/index3.vue'
 
 
 Vue.use(Router)
-export default new Router(  {
+export default new Router({
     routes: [
         {
-            path: '/test/1',
-            component: one
-        },{
-            path: '/test/2',
-            component: two
-        },{
-            path: '/test/3',
-            component: three
+            path: '/',
+            component: Temp
+        },
+        {   path: '/test/:id',
+            name: 'test',
+            component: Temp,
+            children: [
+               
+                {
+                    path: '/test/1',
+                    name: 'test1',
+                    component: one
+                },{
+                    path: '/test/2',
+                    name: 'test2',
+                    component: two
+                }
+            ]
         }
          
     ]

@@ -1,29 +1,9 @@
 <template>
-    <div>
-        <div class="navbar">
-        <router-link to="/test/1">
-            <li>
-                <i class="glyphicon glyphicon-home"></i>
-                11
-            </li>
-        </router-link>
-           <router-link to="/test/2">
-            <li>
-                <i class="glyphicon glyphicon-home"></i>
-                22
-            </li>
-        </router-link>
-        <router-link to="/test/3">
-            <li>
-                <i class="glyphicon glyphicon-home"></i>
-                模拟ctr shift
-            </li>
-        </router-link>
-        </div>
-        <div>
-            <router-view> </router-view>
-        </div>
+    <div id="con">
+        <router-view></router-view>
     </div>
+            
+
 </template>
 
 <script>
