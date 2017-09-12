@@ -1,18 +1,17 @@
 
 <template>
     <div id="app">
-        <div>
-             <Temp></Temp>
-        </div>
-        
+             <Temp :data="gL"></Temp>
     </div>
 </template>
 <script>
- import Temp from './page/content/index.vue'
+ import Temp from './components/test/index.vue'
+import Data from '../static/mockData/nav.json'
     export default {
         
         data() {
             return {
+                gL: Data.content
             }
         },
         components: {

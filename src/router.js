@@ -6,7 +6,7 @@ import two from './page/test2/index.vue'
 
 
 Vue.use(Router)
-export default new Router(  {
+export default new Router({
     routes: [
         {
             path: '/',
@@ -15,13 +15,15 @@ export default new Router(  {
         {   path: '/test/:id',
             name: 'test',
             component: Temp,
-           // path: '/test1',
             children: [
+               
                 {
                     path: '/test/1',
+                    name: 'test1',
                     component: one
                 },{
                     path: '/test/2',
+                    name: 'test2',
                     component: two
                 }
             ]

@@ -3,7 +3,7 @@
         <div class="navbar">
             <li v-for="item in arr">
                 <i class="glyphicon glyphicon-home"></i>
-                <router-link :to="{ name: 'test', params: { id: item.id }}"> 
+                <router-link :to="{ name: 'test'+item.id, params: { id: item.id }}"> 
                     {{item.text}} 
                 </router-link>
             </li>

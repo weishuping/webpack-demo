@@ -1,8 +1,10 @@
 
 <template>
-    <div id="app">
-             <Temp :data="gL"></Temp>
+    <div id="con">
+        <router-view></router-view>
     </div>
+            
+
 </template>
 <script>
  import Temp from '../../components/test/index.vue'
