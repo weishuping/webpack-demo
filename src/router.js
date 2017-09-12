@@ -1,23 +1,16 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-<<<<<<< HEAD
 import Temp from './page/content/index.vue'
 import one from './page/test1/index.vue'
 import two from './page/test1/index2.vue'
 import three from './page/test1/index3.vue'
 
-=======
-import index from './page/content/home.vue'
-import one from './page/test1/index.vue'
-//import two from './page/test2/index.vue'
->>>>>>> ping
 
 
 Vue.use(Router)
 export default new Router({
     routes: [
         {
-<<<<<<< HEAD
             path: '/',
             component: Temp
         },
@@ -38,14 +31,5 @@ export default new Router({
             ]
         }
          
-=======
-            path: '/index',
-            component: index
-        },{
-            path: '/test1',
-            component: one
-        }
-       
->>>>>>> ping
     ]
 })
