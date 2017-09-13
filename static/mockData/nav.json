@@ -1,12 +1,12 @@
 {
     "content": 
         [
-            { "id":0, "text": "关于我", "icon": "glyphicon glyphicon-user"},
-            { "id": 1, "text": "教育经历", "icon": "glyphicon glyphicon-education" },
-            { "id": 2, "text": "工作经历", "icon": "glyphicon glyphicon-list-alt" },
-            { "id": 3, "text": "我的音乐", "icon": "glyphicon glyphicon-music" },
-            { "id": 4, "text": "我的相册", "icon": "glyphicon glyphicon-book" },
-            { "id": 5, "text": "我的随笔", "icon": "glyphicon glyphicon-heart" }
+            { "id": "home", "text": "关于我", "icon": "glyphicon glyphicon-user"},
+            { "id": "edu", "text": "教育经历", "icon": "glyphicon glyphicon-education" },
+            { "id": "work", "text": "工作经历", "icon": "glyphicon glyphicon-list-alt" },
+            { "id": "music", "text": "我的音乐", "icon": "glyphicon glyphicon-music" },
+            { "id": "photo", "text": "我的相册", "icon": "glyphicon glyphicon-book" },
+            { "id": "artic", "text": "我的随笔", "icon": "glyphicon glyphicon-heart" }
             
         ]
     
