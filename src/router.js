@@ -8,14 +8,16 @@ import Home from './page/content/home.vue'
 import Edu from './page/content/edu.vue'
 import Work from './page/content/work.vue'
 import Music from './page/content/music.vue'
+import Photo from './page/content/photo.vue'
+import Artic from './page/content/artic.vue'
 
 
 Vue.use(Router)
-export default new Router({
+export default new Router({ 
     routes: [
         {
             path: '/',
-            component: Temp
+            redirect: '/resume/home'
         },
         {   path: '/resume/:id',
             name: 'resume',
@@ -38,6 +40,14 @@ export default new Router({
                     path: '/resume/music',
                     name: 'music',
                     component: Music
+                },{
+                    path: '/resume/photo',
+                    name: 'photo',
+                    component: Photo
+                },{
+                    path: '/resume/artic',
+                    name: 'artic',
+                    component: Artic
                 }
             ]
         }
