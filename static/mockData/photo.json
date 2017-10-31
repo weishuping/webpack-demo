@@ -1,0 +1,19 @@
+{
+    "content": 
+        [
+            { "src": "../../../static/img/photos/show1.png" ,"text":"冷"},
+            { "src": "../../../static/img/photos/show2.png","text":"冷" },
+            { "src": "../../../static/img/photos/show3.png","text":"清" },
+            { "src": "../../../static/img/photos/show4.png" ,"text":"清"},
+            { "src": "../../../static/img/photos/show5.png","text":"岁" },
+            { "src": "../../../static/img/photos/show6.png","text":"月" },
+            { "src": "../../../static/img/photos/show7.png","text":"静" },
+            { "src": "../../../static/img/photos/show8.png","text":"好" },
+            { "src": "../../../static/img/photos/show9.png" ,"text":"彼"},
+            { "src": "../../../static/img/photos/show10.png","text":"岸" },
+            { "src": "../../../static/img/photos/show11.png","text":"花" },
+            { "src": "../../../static/img/photos/show12.png","text":"开" }
+            
+        ]
+    
+}

@@ -20,15 +20,5 @@
     
 </script>
 <style lang="">
-    ul.navbar {
-    }
-    .navbar li {
-        background: #cec;
-        display: inline-block;
-        width: 10%;
-        height: 50px;
-        line-height: 50px;
-        margin-right: 15px;
-        cursor: pointer;
-    }
+   
 </style>

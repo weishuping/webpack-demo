@@ -29,15 +29,22 @@
     
 </script>
 <style lang="">
-    ul.navbar {
+    .navbar {
+       background-color: #FFFAF0;
+       margin-bottom: 0;
+       padding: 0 12%;
     }
     .navbar li {
-        background: #cec;
         display: inline-block;
         width: 10%;
         height: 50px;
         line-height: 50px;
         margin-right: 15px;
         cursor: pointer;
+        color: #7EC0EE;
+        font-size: 16px;
+    }
+    .navbar li a {
+        color: #7EC0EE;
     }
 </style>
